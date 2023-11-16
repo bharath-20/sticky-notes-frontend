@@ -1,0 +1,40 @@
+
+nav {
+  background-color: #333;
+  padding: 18px;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+a.active {
+  border-bottom: 2px solid white;
+}
+
+.logout-button{
+  background-color: #e1e1e1;
+	border: none;
+	border-radius: 15px;
+	padding: 5px 10px 5px 10px;
+	font-weight: bold;
+	color:black;
+}
+
